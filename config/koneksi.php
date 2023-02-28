@@ -1,2 +1,2 @@
 <?php
-$koneksi = mysqli_connect("localhost", "root", "", "uk_agung");
+$koneksi = mysqli_connect("localhost", "root", "", "uk_bntg");

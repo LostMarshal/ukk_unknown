@@ -1,6 +1,6 @@
 <?php
 
-$koneksi = mysqli_connect("localhost","root","","uk_22");
+$koneksi = mysqli_connect("localhost","root","","uk_bntg");
 ?>
 
  <div class="container">

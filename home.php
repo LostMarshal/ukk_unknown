@@ -18,9 +18,9 @@
             <div class="card-header" style="color: white; background: #0d6efd";><h5>KONTAK</h5></div>
                 <div class="card-body">
                     Dikembangkan oleh <br>
-                    Nama : Alvian <br>
+                    Nama : Fardila <br>
                     Kelas : XII RPL 2 <br>
-                    No.HP : 085743046183
+                    No.HP : 08988735324
                 </div>
                 <div class="card-footer"></div>
             </div>

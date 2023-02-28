@@ -32,7 +32,7 @@
             </div>
             <div class="card-footer">
                 <button type="submit" name="kirim" class="btn btn-primary">DAFTAR</button>
-                <p>Sudah punya akun? Login <a href="index.php?page=login">disini!</a></p>
+                <p>Sudah punya akun? Login <a href="index.php?page=login">disini</a></p>
             </div>
             </form>
         </div>

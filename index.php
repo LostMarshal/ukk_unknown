@@ -8,7 +8,8 @@
     <title>Aplikasi Pengaduan Masyarakat</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 </head>
-<body style="background: url(assets/img/bm.jpg); background-size: cover;"> </body>
+<body style="background: #f6fffb
+"> </body>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -51,9 +52,9 @@
     }
     ?>
 
-    <footer class="footer py-2 bg-light">
+    <footer class="footer fixed-bottom py-2 bg-light">
         <div class="container">
-            <p class="text-center">UKK RPL 2023 Alviansyah SMKN 2 MAGELANG</p>
+            <p class="text-center">UKK RPL 2023 Fardila SMKN 2 MAGELANG</p>
         </div>
     </footer>
 
