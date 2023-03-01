@@ -1,9 +1,9 @@
 <div class="row mt-3">
     <div class="col-md-4 offset-md-4">
         <div class="card">
-        <div class="card-header" style="color: white; background: #0d6efd";><h5>REGISTRASI</h5></div>
+        <div class="card-header" style="background: #F8CBA6";><h5>REGISTRASI</h5></div>
            
-            <div class="card-body">
+            <div class="card-body" style="background: #FFE7CC">
                 <form action="" method="POST">
                     <div class="mb-3">
                         <label class="form-label">NIK</label>
@@ -30,8 +30,8 @@
                     </div>
 
             </div>
-            <div class="card-footer">
-                <button type="submit" name="kirim" class="btn btn-primary">DAFTAR</button>
+            <div class="card-footer" style="display:flex; flex-direction:column; align-items:center; background: #FFE7CC">
+                <button type="submit" name="kirim" class="btn btn-secondary">DAFTAR</button>
                 <p>Sudah punya akun? Login <a href="index.php?page=login">disini</a></p>
             </div>
             </form>

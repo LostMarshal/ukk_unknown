@@ -1,9 +1,11 @@
-<div class="container">
+<html style="background:#FFFBEB">
+<body style="background:#FFFBEB">
+<div class="container" style="background:#FFFBEB">
     <div class="row">
         <div class="col-md-12 mt-3">
             <div class="card">
-            <div class="card-header" style="color: white; background: #4682B4";><h5>DATA PENGADUAN</h5></div>
-                <div class="card-body">
+            <div class="card-header" style="background: #F8CBA6";><h5>DATA PENGADUAN</h5></div>
+                <div class="card-body" style="background: #FFE7CC">
                     <table class="table table-striped">
                         <thead>
                             <tr>
@@ -45,7 +47,7 @@
 
                                     </td>
                                     <td>
-                                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#verifikasi<?php echo $data['id_pengaduan'] ?>">VERIFIKASI</a>
+                                        <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#verifikasi<?php echo $data['id_pengaduan'] ?>" onclick="this.disabled='disabled'">VERIFIKASI</a>
                                         <!-- Modal Verifikasi-->
                                         <div class="modal fade" id="verifikasi<?php echo $data['id_pengaduan'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog">
@@ -192,3 +194,5 @@
                 </div>
             </div>
         </div>
+    </body>
+    </html>

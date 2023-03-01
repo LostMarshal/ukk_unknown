@@ -1,18 +1,20 @@
-<div class="container">
+<html style="background:#FFFBEB">
+<body style="background:#FFFBEB">
+<div class="container" style="background:#FFFBEB">
     <div class="row">
         <div class="col-md-12 mt-3">
             <div class="card">
-            <div class="card-header" style="color: white; background: #4682B4";><h5>DATA PETUGAS</h5></div>
-                <div class="card-body">
-                    <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambahData">Tambah Data</a>
+            <div class="card-header" style="background: #F8CBA6";><h5>DATA PETUGAS</h5></div>
+                <div class="card-body" style="background: #FFE7CC">
+                    <a href="" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#tambahData">Tambah Data</a>
                     <div class="modal fade" id="tambahData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header">
+                                <div class="modal-header" style="background-color:#F8CBA6; ">
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data PETUGAS</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body" style="background: #FFE7CC">
                                     <form action="" method="POST">
                                         <div class="row mb-3">
                                             <label class="col-md-4">Nama Lengkap</label>
@@ -39,8 +41,8 @@
                                             </div>
                                         </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="submit" name="kirim" class="btn btn-primary">Tambah Data</button>
+                                <div class="modal-footer" style="background: #FFE7CC">
+                                    <button type="submit" name="kirim" class="btn btn-secondary">Tambah Data</button>
                                 </div>
                                 </form>
 
@@ -125,3 +127,5 @@
                 </div>
             </div>
         </div>
+    </body>
+</html>

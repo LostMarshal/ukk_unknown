@@ -8,10 +8,9 @@
     <title>Aplikasi Pengaduan Masyarakat</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 </head>
-<body style="background: #f6fffb
-"> </body>
+<body style="background: #FFFBEB"> </body>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" style="background: #F8CBA6">
         <div class="container">
             <a class="navbar-brand" href="index.php">Aplikasi Pengaduan Masyarakat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

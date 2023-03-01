@@ -4,26 +4,22 @@
     <div class="row mt-3">
         <div class="col-md-8">
             <div class="card">
-            <div class="card-header" style="color: white; background: #0d6efd";><h5>INFORMASI</h5></div>
-                <div class="card-body">
-                    Aplikasi pengaduan masyarakat ini dibuat memenuhi tugas Uji Kompetensi Keahlian RPL Tahun 2023
-                    <br><br>
-                    Petunjuk Penggunaan Aplikasi :
+                <h5 class="card-header" style="background-color:#F8CBA6; ">Informasi</h5>
+                <div class="card-body" style="background: #FFE7CC">
+                    <p class="card-text">Aplikasi pengaduan masyarakat ini dibuat memenuhi tugas Uji Kompetensi Keahlian RPL Tahun 2023</p>
+                    <p class="card-text">Petunjuk Penggunaan Aplikasi :</p>
                 </div>
-                <div class="card-footer"></div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-            <div class="card-header" style="color: white; background: #0d6efd";><h5>KONTAK</h5></div>
-                <div class="card-body">
-                    Dikembangkan oleh <br>
-                    Nama : Fardila <br>
-                    Kelas : XII RPL 2 <br>
-                    No.HP : 08988735324
+                <h5 class="card-header" style="background-color:#F8CBA6; ">Informasi</h5>
+                <div class="card-body" style="background: #FFE7CC">
+                    Aplikasi ini dikembangkan oleh<br>
+                    Nama: Fardila Bintang Adinata<br>
+                    Kelas: XII RPL 2<br>
+                    No. HP : 08988735324<br>
                 </div>
-                <div class="card-footer"></div>
             </div>
-        </div>
     </div>
 </div>

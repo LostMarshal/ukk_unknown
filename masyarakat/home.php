@@ -1,13 +1,17 @@
+<html style="background:#FFFBEB; margin-bottom: 100px;">
+<body style="background:#FFFBEB">
 <div class="container">
     <div class="row">
-        <div class="col-md-12" mt-3>
-            <p>Selamat Datang</p>
-            <?php echo $_SESSION['nama'] ?>
+        <div class="col-md-12 mt-3">
+            <div class="alert alert-dark" role="alert">
+                <h4 class="alert-heading"> Selamat Datang!</h4>
+                <h3><?php echo $_SESSION['nama'] ?>.</h3>
+            </div>
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="background-color:#F8CBA6; ">
                     FORM PENGADUAN
                 </div>
-                <div class="card-body">
+                <div class="card-body" style="background: #FFE7CC">
                     <form action="" method="POST" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label class="form-label">JUDUL LAPORAN</label>
@@ -23,8 +27,8 @@
                             <input type="file" class="form-control" name="foto" required>
                         </div>
                 </div>
-                <div class="card-footer">
-                    <button type="submit" name="kirim" class="btn btn-primary">KIRIM</button>
+                <div class="card-footer" style="background: #FFE7CC">
+                    <button type="submit" name="kirim" class="btn btn-secondary">KIRIM</button>
                     </form>
                     <?php
                     include '../config/koneksi.php';
@@ -58,10 +62,10 @@
     <div class="row">
         <div class="col-md-12 mt-3">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" style="background-color:#F8CBA6; ">
                     RIWAYAT PENGADUAN
                 </div>
-                <div class="card-body">
+                <div class="card-body" style="background: #FFE7CC">
                     <table class="table table-striped">
                         <thead>
                             <tr>
@@ -142,3 +146,5 @@
         </div>
     </div>
 </div>
+</body>
+</html>

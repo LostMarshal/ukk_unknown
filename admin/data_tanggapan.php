@@ -1,9 +1,11 @@
-<div class="container">
-<div class="row">
+<html style="background:#FFFBEB">
+<body style="background:#FFFBEB">
+<div class="container" style="background:#FFFBEB">
+<div class="row" style="margin-top:20px">
         <div class="col-md-12" mt-3>
             <div class="card">
-            <div class="card-header" style="color: white; background: #4682B4";><h5>DATA TANGGAPAN</h5></div>
-                <div class="card-body">
+            <div class="card-header" style="background: #F8CBA6";><h5>DATA TANGGAPAN</h5></div>
+                <div class="card-body" style="background: #FFE7CC">
                     <a href="export_tanggapan.php" class=" btn btn-success" target= "_blank">Export Excel</a>
                     <table class="table table-striped">
                         <thead>
@@ -78,3 +80,5 @@
         </div>
     </div>
 </div>
+</body>
+</html>
